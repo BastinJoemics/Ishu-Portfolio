@@ -1,0 +1,103 @@
+/* Add your custom styles here */
+
+/* Body */
+body {
+  font-family: 'Arial', sans-serif;
+  line-height: 1.6;
+  color: #333;
+  background-color: #f8f9fa;
+}
+
+/* Navbar */
+.navbar {
+  background-color: #343a40 !important;
+}
+
+.navbar-brand {
+  font-size: 1.5rem;
+}
+
+.navbar-nav .nav-link {
+  color: #fff !important;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #17a2b8 !important;
+}
+
+/* About Section */
+#about {
+  background-color: #fff;
+}
+
+/* Portfolio Section */
+#portfolio {
+  background-color: #f8f9fa;
+}
+
+.card {
+  transition: transform 0.3s;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+/* Contact Section */
+#contact {
+  background-color: #fff;
+}
+
+/* Footer */
+footer {
+  background-color: #343a40;
+  color: #fff;
+}
+
+/* Responsive Images */
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Custom Padding/Margin Utilities */
+.py-5 {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+.mb-4 {
+  margin-bottom: 1.5rem;
+}
+
+/* Additional Styling */
+.display-4 {
+  color: #343a40;
+}
+
+.lead {
+  font-size: 1.25rem;
+  color: #555;
+}
+
+/* Custom Button Style */
+.btn-custom {
+  background-color: #17a2b8;
+  color: #fff;
+  border: none;
+}
+
+.btn-custom:hover {
+  background-color: #117a8b;
+}
+
+/* Responsive Breakpoints */
+@media (max-width: 768px) {
+  .navbar-brand {
+    font-size: 1.2rem;
+  }
+  
+  .navbar-nav .nav-link {
+    font-size: 0.9rem;
+  }
+}
